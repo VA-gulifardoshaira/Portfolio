@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Shaira Gulifardo — B2B Lead Generation &amp; Advisor Growth Specialist</title>
+<meta name="description" content="Shaira Gulifardo: B2B lead generation and advisor growth specialist. LinkedIn outreach systems, expert network recruitment, email enrichment and KPI reporting for US financial services clients."/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --navy:#1B2A4A;
+  --navy-mid:#243660;
+  --gold:#C9A84C;
+  --gold-light:#E2C47A;
+  --cream:#FBF9F4;
+  --white:#FFFFFF;
+  --gray-100:#F5F4F0;
+  --gray-300:#D9D5CC;
+  --gray-500:#8C8778;
+  --gray-700:#4A4640;
+  --text:#2C2820;
+  --radius:8px;
+  --transition:0.35s cubic-bezier(0.4,0,0.2,1);
+}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;background:var(--cream);color:var(--text);line-height:1.6;overflow-x:hidden}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:0 2rem;height:60px;display:flex;align-items:center;justify-content:space-between;background:rgba(27,42,74,0.97);backdrop-filter:blur(8px)}
+.nav-logo{font-family:'Playfair Display',serif;font-size:1.1rem;color:var(--gold);letter-spacing:0.02em}
+.nav-links{display:flex;gap:1.8rem;list-style:none}
+.nav-links a{color:rgba(255,255,255,0.75);text-decoration:none;font-size:0.8rem;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;transition:color var(--transition)}
+.nav-links a:hover{color:var(--gold-light)}
+
+/* HERO */
+.hero{min-height:100vh;background:linear-gradient(145deg,var(--navy) 0%,var(--navy-mid) 60%,#1a3a5c 100%);display:flex;align-items:center;padding:6rem 2rem 4rem;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-40%;right:-20%;width:700px;height:700px;background:radial-gradient(circle,rgba(201,168,76,0.08) 0%,transparent 65%);pointer-events:none}
+.hero-inner{max-width:1100px;margin:0 auto;width:100%;display:grid;grid-template-columns:1fr 380px;gap:5rem;align-items:center}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:0.5rem;font-size:0.72rem;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold);margin-bottom:1.2rem}
+.hero-eyebrow::before{content:'';display:inline-block;width:28px;height:1px;background:var(--gold)}
+.hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,5vw,3.6rem);color:var(--white);line-height:1.12;margin-bottom:1.4rem}
+.hero h1 em{color:var(--gold-light);font-style:normal}
+.hero-desc{font-size:1rem;color:rgba(255,255,255,0.68);max-width:480px;line-height:1.75;margin-bottom:2rem}
+.hero-stats{display:flex;gap:2rem;margin-bottom:2.4rem}
+.stat-item{text-align:left}
+.stat-num{font-family:'Playfair Display',serif;font-size:1.8rem;color:var(--gold-light);line-height:1}
+.stat-label{font-size:0.7rem;color:rgba(255,255,255,0.5);text-transform:uppercase;letter-spacing:0.08em;margin-top:0.2rem}
+.hero-cta{display:inline-flex;align-items:center;gap:0.6rem;background:var(--gold);color:var(--navy);padding:0.8rem 1.8rem;border-radius:4px;font-weight:600;font-size:0.88rem;text-decoration:none;letter-spacing:0.04em;transition:background var(--transition),transform var(--transition)}
+.hero-cta:hover{background:var(--gold-light);transform:translateY(-2px)}
+.hero-photo-wrap{position:relative}
+.hero-photo-wrap::before{content:'';position:absolute;top:20px;left:20px;right:-20px;bottom:-20px;border:1px solid rgba(201,168,76,0.25);border-radius:var(--radius);z-index:0}
+.hero-photo-wrap img,.hero-photo-placeholder{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:center top;border-radius:var(--radius);position:relative;z-index:1;display:block}
+.hero-photo-placeholder{background:linear-gradient(145deg,var(--navy-mid),#1a3a5c);display:flex;flex-direction:column;align-items:center;justify-content:center;color:rgba(255,255,255,0.3);font-size:0.8rem;text-align:center;padding:2rem}
+.hero-photo-placeholder span{font-size:3rem;margin-bottom:0.5rem;display:block}
+
+/* SECTIONS */
+section{padding:5rem 2rem}
+.section-inner{max-width:1100px;margin:0 auto}
+.section-eyebrow{font-size:0.7rem;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold);margin-bottom:0.6rem}
+.section-title{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,3.5vw,2.6rem);color:var(--navy);line-height:1.2;margin-bottom:0.5rem}
+.section-sub{font-size:0.95rem;color:var(--gray-500);max-width:520px;margin-bottom:3rem}
+
+/* ABOUT */
+#about{background:var(--white)}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start}
+.about-text p{font-size:0.95rem;color:var(--gray-700);line-height:1.8;margin-bottom:1rem}
+.about-text strong{color:var(--navy)}
+.about-tools{margin-top:1.5rem}
+.tools-label{font-size:0.7rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--gray-500);margin-bottom:0.75rem}
+.tools-wrap{display:flex;flex-wrap:wrap;gap:0.5rem}
+.tool-tag{background:var(--gray-100);color:var(--navy);font-size:0.75rem;font-weight:500;padding:0.35rem 0.75rem;border-radius:20px;border:1px solid var(--gray-300)}
+.about-right{}
+.service-card{background:var(--gray-100);border-radius:var(--radius);padding:1.4rem 1.6rem;margin-bottom:1rem;border-left:3px solid var(--gold)}
+.service-card h4{font-size:0.88rem;font-weight:600;color:var(--navy);margin-bottom:0.3rem}
+.service-card p{font-size:0.82rem;color:var(--gray-500);line-height:1.6}
+
+/* SKILLS */
+#skills{background:var(--cream)}
+.skills-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+.skill-card{background:var(--white);border-radius:var(--radius);padding:1.6rem;border:1px solid var(--gray-300);transition:box-shadow var(--transition),transform var(--transition)}
+.skill-card:hover{box-shadow:0 8px 28px rgba(27,42,74,0.08);transform:translateY(-3px)}
+.skill-icon{font-size:1.6rem;margin-bottom:0.8rem}
+.skill-card h3{font-size:0.92rem;font-weight:600;color:var(--navy);margin-bottom:0.5rem}
+.skill-card p{font-size:0.8rem;color:var(--gray-500);line-height:1.65}
+.skill-tools{margin-top:0.8rem;display:flex;flex-wrap:wrap;gap:0.35rem}
+.skill-tool{font-size:0.68rem;font-weight:600;color:var(--gold);background:rgba(201,168,76,0.1);padding:0.2rem 0.55rem;border-radius:3px;letter-spacing:0.04em;text-transform:uppercase}
+
+/* PROJECTS */
+#projects{background:var(--navy)}
+#projects .section-eyebrow{color:var(--gold)}
+#projects .section-title{color:var(--white)}
+#projects .section-sub{color:rgba(255,255,255,0.5)}
+.proj-grid{display:grid;gap:1.5rem}
+.proj-card{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:var(--radius);padding:2rem;transition:background var(--transition),border-color var(--transition)}
+.proj-card:hover{background:rgba(255,255,255,0.08);border-color:rgba(201,168,76,0.3)}
+.proj-header{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;margin-bottom:1rem}
+.proj-num{font-size:0.68rem;font-weight:700;letter-spacing:0.1em;color:var(--gold);text-transform:uppercase;white-space:nowrap;margin-top:0.15rem}
+.proj-badge{display:inline-block;font-size:0.68rem;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:var(--gold);background:rgba(201,168,76,0.12);padding:0.25rem 0.65rem;border-radius:3px;margin-bottom:0.5rem}
+.proj-card h3{font-family:'Playfair Display',serif;font-size:1.2rem;color:var(--white);line-height:1.3;margin-bottom:0.5rem}
+.proj-challenge-label{font-size:0.68rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.35);margin-bottom:0.3rem}
+.proj-challenge{font-size:0.85rem;color:rgba(255,255,255,0.6);line-height:1.7;margin-bottom:1.2rem}
+.proj-built-label{font-size:0.68rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.35);margin-bottom:0.5rem}
+.proj-built ul{list-style:none;margin-bottom:1.2rem}
+.proj-built li{font-size:0.82rem;color:rgba(255,255,255,0.65);line-height:1.65;padding:0.2rem 0 0.2rem 1.1rem;position:relative}
+.proj-built li::before{content:'→';position:absolute;left:0;color:var(--gold);font-size:0.72rem;top:0.28rem}
+.proj-results{display:grid;gap:0.8rem}
+.proj-results.four-col{grid-template-columns:repeat(4,1fr)}
+.proj-results.two-col{grid-template-columns:repeat(2,1fr)}
+.result-box{background:rgba(201,168,76,0.08);border:1px solid rgba(201,168,76,0.15);border-radius:6px;padding:0.9rem 1rem;text-align:center}
+.result-box .rnum{font-family:'Playfair Display',serif;font-size:1.5rem;color:var(--gold-light);line-height:1;display:block}
+.result-box .rlabel{font-size:0.68rem;color:rgba(255,255,255,0.45);text-transform:uppercase;letter-spacing:0.06em;margin-top:0.25rem;display:block;line-height:1.4}
+.proj-tools{display:flex;flex-wrap:wrap;gap:0.4rem;margin-top:1.2rem}
+.proj-tool{font-size:0.68rem;font-weight:600;color:rgba(255,255,255,0.5);background:rgba(255,255,255,0.06);padding:0.25rem 0.6rem;border-radius:3px;letter-spacing:0.04em;text-transform:uppercase;border:1px solid rgba(255,255,255,0.08)}
+
+/* EXPERIENCE */
+#experience{background:var(--white)}
+.exp-list{display:grid;gap:1.5rem}
+.exp-item{display:grid;grid-template-columns:160px 1fr;gap:2rem;padding-bottom:1.5rem;border-bottom:1px solid var(--gray-300)}
+.exp-item:last-child{border-bottom:none}
+.exp-date{font-size:0.75rem;color:var(--gray-500);font-weight:500;padding-top:0.15rem}
+.exp-role{font-size:0.92rem;font-weight:600;color:var(--navy);margin-bottom:0.1rem}
+.exp-company{font-size:0.8rem;color:var(--gold);margin-bottom:0.4rem}
+.exp-desc{font-size:0.82rem;color:var(--gray-500);line-height:1.7}
+
+/* CONTACT */
+#contact{background:var(--cream)}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start}
+.contact-info h3{font-family:'Playfair Display',serif;font-size:1.5rem;color:var(--navy);margin-bottom:0.75rem}
+.contact-info p{font-size:0.9rem;color:var(--gray-500);line-height:1.75;margin-bottom:1.5rem}
+.contact-detail{display:flex;align-items:center;gap:0.75rem;margin-bottom:0.75rem}
+.contact-detail-icon{width:36px;height:36px;background:var(--navy);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:0.9rem;flex-shrink:0}
+.contact-detail-text{font-size:0.85rem;color:var(--gray-700)}
+.contact-detail-text a{color:var(--navy);text-decoration:none;font-weight:500}
+.contact-detail-text a:hover{color:var(--gold)}
+.contact-form{}
+.form-group{margin-bottom:1rem}
+.form-group label{display:block;font-size:0.72rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--gray-500);margin-bottom:0.35rem}
+.form-group input,.form-group textarea{width:100%;padding:0.75rem 1rem;border:1px solid var(--gray-300);border-radius:var(--radius);font-family:'Inter',sans-serif;font-size:0.88rem;color:var(--text);background:var(--white);transition:border-color var(--transition)}
+.form-group input:focus,.form-group textarea:focus{outline:none;border-color:var(--gold)}
+.form-group textarea{min-height:120px;resize:vertical}
+.form-submit{background:var(--navy);color:var(--white);border:none;padding:0.85rem 2rem;border-radius:4px;font-family:'Inter',sans-serif;font-size:0.88rem;font-weight:600;letter-spacing:0.04em;cursor:pointer;transition:background var(--transition),transform var(--transition);width:100%}
+.form-submit:hover{background:var(--navy-mid);transform:translateY(-1px)}
+.form-success{display:none;background:rgba(201,168,76,0.12);border:1px solid rgba(201,168,76,0.3);border-radius:var(--radius);padding:1rem;text-align:center;color:var(--navy);font-size:0.88rem;margin-top:1rem;font-weight:500}
+.form-success.show{display:block}
+
+/* FOOTER */
+footer{background:var(--navy);padding:2rem;text-align:center}
+footer p{font-size:0.78rem;color:rgba(255,255,255,0.35)}
+footer span{color:var(--gold)}
+
+/* REVEAL */
+.reveal{opacity:0;transform:translateY(24px);transition:opacity 0.6s ease,transform 0.6s ease}
+.reveal.visible{opacity:1;transform:none}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  .hero-inner{grid-template-columns:1fr;gap:3rem}
+  .hero-photo-wrap{max-width:280px;margin:0 auto}
+  .hero-photo-wrap::before{display:none}
+  .about-grid,.contact-grid{grid-template-columns:1fr;gap:2.5rem}
+  .skills-grid{grid-template-columns:repeat(2,1fr)}
+  .proj-results.four-col{grid-template-columns:repeat(2,1fr)}
+  .exp-item{grid-template-columns:1fr;gap:0.25rem}
+}
+@media(max-width:600px){
+  nav{padding:0 1.2rem}
+  .nav-links{gap:1rem}
+  section{padding:3.5rem 1.2rem}
+  .skills-grid{grid-template-columns:1fr}
+  .hero-stats{gap:1.4rem}
+}
+@media(prefers-reduced-motion:reduce){
+  .reveal{opacity:1;transform:none;transition:none}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <span class="nav-logo">Shaira G.</span>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <p class="hero-eyebrow">B2B Lead Generation &amp; Advisor Growth Specialist</p>
+      <h1>I build outreach systems that <em>fill pipelines</em>, not just spreadsheets.</h1>
+      <p class="hero-desc">Manila-based Advisor Growth and Lead Generation Specialist working on US Eastern Time. I design LinkedIn outreach systems, AI-assisted prospect evaluation, and email enrichment workflows for fintech and professional services clients, reaching audiences from independent insurance agents to military families.</p>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <div class="stat-num">2+</div>
+          <div class="stat-label">Active Clients</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">~20%</div>
+          <div class="stat-label">Avg. Acceptance Rate</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">1,638</div>
+          <div class="stat-label">Emails Verified</div>
+        </div>
+      </div>
+      <a href="#contact" class="hero-cta">Let&#8217;s Connect &#x2736;</a>
+    </div>
+    <div class="hero-photo-wrap">
+      <img src="shai-photo.jpg" alt="Shaira Gulifardo" id="photoSlot"/>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-inner">
+    <p class="section-eyebrow reveal">About Me</p>
+    <h2 class="section-title reveal">Built from scratch &#8212; every time.</h2>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>I&#8217;m Shaira Gulifardo, a Virtual Assistant and Lead Generation Specialist based in Manila, Philippines. I hold a <strong>BA in Mass Communication</strong> from Perpetual Help College of Manila and started my lead generation career at Recruit Executive before building the full outreach function for my current clients from zero.</p>
+        <p>I work graveyard shift on US Eastern Time. My edge is that I don&#8217;t just execute tasks &#8212; I <strong>design the system</strong>: the ICP, the sequence, the AI pipeline, the tracker, and the weekly report. I handle everything end to end so my clients focus on closing.</p>
+        <p>I don&#8217;t do paid ads, SEO, or cold calls. My core offer is <strong>LinkedIn outreach, list building, message sequencing, and appointment setting</strong> &#8212; done with real strategy and real accountability.</p>
+        <div class="about-tools">
+          <p class="tools-label">Tools I work with daily</p>
+          <div class="tools-wrap">
+            <span class="tool-tag">LinkedIn Sales Navigator</span>
+            <span class="tool-tag">Apollo.io</span>
+            <span class="tool-tag">Claude AI</span>
+            <span class="tool-tag">Google Sheets</span>
+            <span class="tool-tag">Zapier</span>
+            <span class="tool-tag">Google Analytics (GA4)</span>
+            <span class="tool-tag">Mailmeteor</span>
+            <span class="tool-tag">Google Workspace</span>
+            <span class="tool-tag">Canva</span>
+            <span class="tool-tag">PowerPoint</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-right reveal">
+        <div class="service-card">
+          <h4>&#128270; LinkedIn Outreach Systems</h4>
+          <p>ICP research, Sales Navigator targeting, multi-touch sequences, and daily cadence management aligned to your business goals.</p>
+        </div>
+        <div class="service-card">
+          <h4>&#129302; AI Evaluation Pipelines</h4>
+          <p>Every prospect is evaluated against ICP criteria and tiered before a message is written &#8212; then Claude drafts the personalized sequence. Scale without losing the human touch.</p>
+        </div>
+        <div class="service-card">
+          <h4>&#128202; KPI Tracking &amp; Reporting</h4>
+          <p>Custom Google Sheets trackers with live KPI formulas, UTM and GA4 traffic reporting, and monthly PowerPoint decks &#8212; executive-ready, always.</p>
+        </div>
+        <div class="service-card">
+          <h4>&#128240; Email Enrichment &amp; List Building</h4>
+          <p>Apollo.io enrichment, bounce validation, and clean segmented lists ready for launch &#8212; no guesswork, no spam risk.</p>
+        </div>
+        <div class="service-card">
+          <h4>&#129309; Expert Network Growth</h4>
+          <p>Recruiting independent professionals &#8212; CPAs, insurance agents, advisors &#8212; to join a matching platform: targeting, sequences, profile enrichment, and one-by-one follow-up.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-inner">
+    <p class="section-eyebrow reveal">What I Do</p>
+    <h2 class="section-title reveal">Core specializations</h2>
+    <p class="section-sub reveal">Every skill below is active in at least one live client campaign right now.</p>
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="skill-icon">&#127919;</div>
+        <h3>LinkedIn Lead Generation</h3>
+        <p>Multi-track outreach systems with locked Sales Navigator filters, life event angle matching, and A/B message testing &#8212; from job changers and CPAs to independent insurance agents and military audiences.</p>
+        <div class="skill-tools"><span class="skill-tool">Sales Navigator</span><span class="skill-tool">InMail</span><span class="skill-tool">KLT Framework</span></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">&#129432;</div>
+        <h3>AI-Powered Prospecting</h3>
+        <p>Claude evaluates every prospect against ICP criteria (connect or pass) before a message is drafted. Fully documented prompt libraries versioned per campaign.</p>
+        <div class="skill-tools"><span class="skill-tool">Claude AI</span><span class="skill-tool">Prompt Engineering</span><span class="skill-tool">ICP Evaluation</span></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">&#128202;</div>
+        <h3>KPI Tracking &amp; Reporting</h3>
+        <p>Multi-tab Google Sheets with live formulas, conditional formatting, close reason codes, UTM Smart Links with GA4 reporting, and PowerPoint decks with presenter scripts.</p>
+        <div class="skill-tools"><span class="skill-tool">Google Sheets</span><span class="skill-tool">GA4 / UTM</span><span class="skill-tool">PowerPoint</span></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">&#128231;</div>
+        <h3>Email Enrichment</h3>
+        <p>Apollo.io manual bridge workflow, multi-tool waterfall validation, bounce guard checks &#8212; clean verified lists delivered ready for launch.</p>
+        <div class="skill-tools"><span class="skill-tool">Apollo.io</span><span class="skill-tool">Mailmeteor</span><span class="skill-tool">BounceGuard</span></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">&#128196;</div>
+        <h3>SOP Writing &amp; Campaign Systems</h3>
+        <p>Full SOPs covering prospect lifecycle, message libraries, compliance rules, and weekly rotation schedules &#8212; built to hand off cleanly.</p>
+        <div class="skill-tools"><span class="skill-tool">Google Docs</span><span class="skill-tool">Process Design</span><span class="skill-tool">Compliance Rules</span></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">&#9997;&#65039;</div>
+        <h3>LinkedIn Content Strategy</h3>
+        <p>Weekly content calendars, post writing in first-person brand voice, 10:10 engagement rules, and reactive posts that outperform designed graphics.</p>
+        <div class="skill-tools"><span class="skill-tool">Content Strategy</span><span class="skill-tool">Brand Voice</span><span class="skill-tool">Canva</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-inner">
+    <p class="section-eyebrow reveal">Portfolio</p>
+    <h2 class="section-title reveal">Work I&#8217;ve built from scratch</h2>
+    <p class="section-sub reveal">All client details anonymized. Results are real &#8212; from active campaigns managed in 2026.</p>
+    <div class="proj-grid">
+
+      <!-- PROJECT 01 -->
+      <div class="proj-card reveal">
+        <div class="proj-header">
+          <div>
+            <span class="proj-badge">Lead Generation</span>
+            <h3>Two-Track LinkedIn Outreach System &#8212; US Fintech Platform</h3>
+          </div>
+          <span class="proj-num">01</span>
+        </div>
+        <p class="proj-challenge-label">The Challenge</p>
+        <p class="proj-challenge">A Florida-based AI-powered fintech platform needed to grow two audiences simultaneously: mid-career professionals who needed a fiduciary financial advisor, and independent professionals who could join as expert partners. No outreach system existed. Everything had to be built from zero &#8212; and the audiences kept evolving, from job changers and CPAs/EAs to independent insurance agents and military families.</p>
+        <p class="proj-built-label">What I Built</p>
+        <div class="proj-built">
+          <ul>
+            <li>Defined two distinct ICPs with custom filters locked in LinkedIn Sales Navigator</li>
+            <li>Built a 4-touch sequence for job changers (32&#8211;52, $100K+, FL-based) with 5 life event angles</li>
+            <li>Built 3-touch sequences to recruit independent professionals (CPAs/EAs, then insurance agents) with A/B-tested angles</li>
+            <li>Created an AI evaluation workflow that tiers each prospect before a personalized message is drafted &#8212; later consolidated into a Claude-based connect/pass process</li>
+            <li>Designed an 8-tab Google Sheets KPI tracker with live formulas, angle logging, and close reason codes</li>
+            <li>Delivered monthly PowerPoint reports with presenter script for client review</li>
+            <li>Set up UTM Smart Links and GA4 reporting to show which outreach drives visits to the site</li>
+            <li>Cleaned, enriched, and promoted expert profiles in the client&#8217;s CRM, then followed up with each one individually</li>
+          </ul>
+        </div>
+        <div class="proj-results four-col">
+          <div class="result-box"><span class="rnum">223</span><span class="rlabel">Connection Requests Sent</span></div>
+          <div class="result-box"><span class="rnum">44</span><span class="rlabel">Connections Accepted</span></div>
+          <div class="result-box"><span class="rnum">~20%</span><span class="rlabel">Acceptance Rate</span></div>
+          <div class="result-box"><span class="rnum">12</span><span class="rlabel">Close Reason Codes Tracked</span></div>
+        </div>
+        <div class="proj-tools">
+          <span class="proj-tool">Sales Navigator</span><span class="proj-tool">Apollo.io</span><span class="proj-tool">Gemini AI</span><span class="proj-tool">Claude AI</span><span class="proj-tool">Google Sheets</span><span class="proj-tool">Zapier</span><span class="proj-tool">GA4</span><span class="proj-tool">PowerPoint</span>
+        </div>
+      </div>
+
+      <!-- PROJECT 02 -->
+      <div class="proj-card reveal">
+        <div class="proj-header">
+          <div>
+            <span class="proj-badge">Campaign Management</span>
+            <h3>LinkedIn Lead Gen Campaign &#8212; Professional Training Event (Healthcare)</h3>
+          </div>
+          <span class="proj-num">02</span>
+        </div>
+        <p class="proj-challenge-label">The Challenge</p>
+        <p class="proj-challenge">A US-based professional training organization needed to fill seats for a 5-day in-person certification event targeting licensed therapists and clinical practice leaders. No prior LinkedIn outreach existed for this market. The client needed a structured, compliant, relationship-first approach.</p>
+        <p class="proj-built-label">What I Built</p>
+        <div class="proj-built">
+          <ul>
+            <li>Designed a two-tier prospect system: Tier 1 (individual clinicians) and Tier 2 (group practice leaders)</li>
+            <li>Built a weekly rotation: Mon/Wed/Fri = Tier 1, Tue/Thu = Tier 2 &#8212; 25 connection requests + 25 InMails/week</li>
+            <li>Wrote 5 message variants (A&#8211;D2) covering cold outreach, cost objection handling, and personal healing angle</li>
+            <li>Established strict compliance rules: discount codes only at Touch 3+, payment plan only after cost objection</li>
+            <li>Wrote and maintained SOP v3 covering full campaign rules, message library, and prospect lifecycle</li>
+            <li>Delivered weekly Friday reports to client and coordinator covering volume, engagement, and pipeline</li>
+          </ul>
+        </div>
+        <div class="proj-results four-col">
+          <div class="result-box"><span class="rnum">Active</span><span class="rlabel">Campaign Status</span></div>
+          <div class="result-box"><span class="rnum">25+25</span><span class="rlabel">Weekly Conn. Req + InMail Target</span></div>
+          <div class="result-box"><span class="rnum">5</span><span class="rlabel">Message Variants</span></div>
+          <div class="result-box"><span class="rnum">Weekly</span><span class="rlabel">Friday Reporting</span></div>
+        </div>
+        <div class="proj-tools">
+          <span class="proj-tool">Sales Navigator</span><span class="proj-tool">LinkedIn InMail</span><span class="proj-tool">Google Sheets</span><span class="proj-tool">Google Docs (SOP)</span><span class="proj-tool">Canva</span>
+        </div>
+      </div>
+
+      <!-- PROJECT 03 -->
+      <div class="proj-card reveal">
+        <div class="proj-header">
+          <div>
+            <span class="proj-badge">Email Enrichment</span>
+            <h3>Email Enrichment Project &#8212; 2,379 Professional Records Cleaned &amp; Verified</h3>
+          </div>
+          <span class="proj-num">03</span>
+        </div>
+        <p class="proj-challenge-label">The Challenge</p>
+        <p class="proj-challenge">A fintech client had 2,379 professional contacts in their database with no verified email addresses &#8212; making newsletter and cold email launch impossible. Records had inconsistent formatting, missing names, and no LinkedIn verification. The goal: clean, verify, and segment the full list ahead of a mass email launch.</p>
+        <p class="proj-built-label">What I Built</p>
+        <div class="proj-built">
+          <ul>
+            <li>Built a Safe Manual Bridge workflow using Apollo People Search (never Chrome Extension) to protect account health</li>
+            <li>Designed a free-tool waterfall: Skrapp &#8594; Prospeo &#8594; Tomba &#8594; BounceGuard for records Apollo couldn&#8217;t match</li>
+            <li>Validated emails via Mailmeteor for bounce risk before adding to send list</li>
+            <li>Organized clean Google Sheets with segmented tabs: Verified LinkedIn, Verified Email, No Name Records, APOLLO, Mailmeteor</li>
+            <li>Flagged 298 no-name records as unworkable and isolated for separate handling</li>
+            <li>Delivered final enriched list ready for newsletter launch &#8212; segmented, clean, and bounce-validated</li>
+          </ul>
+        </div>
+        <div class="proj-results four-col">
+          <div class="result-box"><span class="rnum">2,379</span><span class="rlabel">Total Records</span></div>
+          <div class="result-box"><span class="rnum">1,638</span><span class="rlabel">Emails Verified</span></div>
+          <div class="result-box"><span class="rnum">~69%</span><span class="rlabel">Enrichment Rate</span></div>
+          <div class="result-box"><span class="rnum">298</span><span class="rlabel">Flagged Unworkable</span></div>
+        </div>
+        <div class="proj-tools">
+          <span class="proj-tool">Apollo.io</span><span class="proj-tool">Skrapp</span><span class="proj-tool">Prospeo</span><span class="proj-tool">Tomba</span><span class="proj-tool">BounceGuard</span><span class="proj-tool">Mailmeteor</span><span class="proj-tool">Google Sheets</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-inner">
+    <p class="section-eyebrow reveal">Background</p>
+    <h2 class="section-title reveal">Experience</h2>
+    <p class="section-sub reveal">Building systems from scratch at every stage.</p>
+    <div class="exp-list">
+      <div class="exp-item reveal">
+        <div class="exp-date">Feb 2026 &#8212; Present</div>
+        <div>
+          <div class="exp-role">Advisor Growth Specialist</div>
+          <div class="exp-company">Advisor Near Me (ANM) &#183; Remote &#183; Florida, USA</div>
+          <p class="exp-desc">Built the lead generation function from scratch in February 2026 &#8212; ICP, SOPs, multi-track outreach, AI evaluation workflow, 8-tab KPI tracker, and monthly PowerPoint reports &#8212; and now lead advisor growth, with a current focus on independent insurance professionals and military and veteran audiences. Run daily LinkedIn Sales Navigator campaigns, A/B test messaging angles, enrich and promote expert profiles in the CRM, and report weekly results. Enriched 2,379 expert records. Title updated from Lead Generation Specialist in October 2026.</p>
+        </div>
+      </div>
+      <div class="exp-item reveal">
+        <div class="exp-date">2026 &#8212; Present</div>
+        <div>
+          <div class="exp-role">Lead Generation Specialist</div>
+          <div class="exp-company">Brain Based EMDR Training &#183; Remote &#183; Atlanta, USA</div>
+          <p class="exp-desc">Managing LinkedIn outreach campaign for a 5-day EMDRIA-approved training event in Atlanta (November 2026). Built tiered prospect system, message variant library (5 variants), SOP v3, and weekly reporting cadence for the client and campaign coordinator.</p>
+        </div>
+      </div>
+      <div class="exp-item reveal">
+        <div class="exp-date">Sep 2025 &#8212; Jan 2026</div>
+        <div>
+          <div class="exp-role">Lead Generation Specialist</div>
+          <div class="exp-company">Recruit Executive &#183; Remote</div>
+          <p class="exp-desc">First dedicated lead generation role. Built prospecting workflows, managed LinkedIn outreach, and developed foundational skills in Sales Navigator targeting and B2B messaging.</p>
+        </div>
+      </div>
+      <div class="exp-item reveal">
+        <div class="exp-date">2020</div>
+        <div>
+          <div class="exp-role">BA Mass Communication</div>
+          <div class="exp-company">Perpetual Help College of Manila</div>
+          <p class="exp-desc">Foundation in communication, research, and content strategy &#8212; applied directly to outreach copywriting and campaign messaging.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-inner">
+    <p class="section-eyebrow reveal">Get In Touch</p>
+    <h2 class="section-title reveal">Let&#8217;s work together</h2>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <h3>Open to new client engagements.</h3>
+        <p>I work with US-based clients remotely on Manila graveyard shift (aligned to Eastern Time). If you need a LinkedIn outreach system built end-to-end &#8212; ICP, sequences, tracking, and weekly reporting &#8212; I&#8217;d love to hear about your goals.</p>
+        <div class="contact-detail">
+          <div class="contact-detail-icon">&#128231;</div>
+          <div class="contact-detail-text"><a href="mailto:gulifardoshaira&#64;gmail.com">gulifardoshaira&#64;gmail.com</a></div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-detail-icon">&#127758;</div>
+          <div class="contact-detail-text">Manila, Philippines &#183; US Eastern Time</div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-detail-icon">&#128279;</div>
+          <div class="contact-detail-text"><a href="https://www.linkedin.com/in/shaira-gulifardo" target="_blank" rel="noopener">linkedin.com/in/shaira-gulifardo</a></div>
+        </div>
+      </div>
+      <div class="contact-form reveal">
+        <form id="contactForm" action="https://formspree.io/f/meevjrvz" method="POST">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Smith" required/>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="jane@company.com" required/>
+          </div>
+          <div class="form-group">
+            <label for="company">Company / Project</label>
+            <input type="text" id="company" name="company" placeholder="Your company name"/>
+          </div>
+          <div class="form-group">
+            <label for="message">What do you need help with?</label>
+            <textarea id="message" name="message" placeholder="Tell me about your outreach goals, target market, and timeline..." required></textarea>
+          </div>
+          <button type="submit" class="form-submit" id="submitBtn">Send Message &#x2736;</button>
+          <div class="form-success" id="formSuccess">&#10003; Message sent! I&#8217;ll get back to you within 24 hours.</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&#169; 2026 <span>Shaira Gulifardo</span> &#183; B2B Lead Generation, Advisor Growth &amp; LinkedIn Outreach Specialist &#183; Manila, Philippines</p>
+</footer>
+
+<script>
+// Intersection Observer for reveal animations
+var reveals = document.querySelectorAll(".reveal");
+var io = new IntersectionObserver(function(entries){
+  entries.forEach(function(e){
+    if(e.isIntersecting){e.target.classList.add("visible");io.unobserve(e.target)}
+  });
+},{threshold:0.1,rootMargin:"0px 0px -40px 0px"});
+reveals.forEach(function(el,i){
+  var siblings = el.parentElement ? Array.from(el.parentElement.querySelectorAll(".reveal")) : [];
+  var idx = siblings.indexOf(el);
+  el.style.transitionDelay = idx > 0 ? (idx * 0.07) + "s" : "0s";
+  io.observe(el);
+});
+
+// Contact form
+var form = document.getElementById("contactForm");
+var btn = document.getElementById("submitBtn");
+var successBox = document.getElementById("formSuccess");
+if(form){
+  form.addEventListener("submit", function(e){
+    e.preventDefault();
+    btn.textContent = "Sending...";
+    btn.disabled = true;
+    fetch(form.action,{method:"POST",body:new FormData(form),headers:{Accept:"application/json"}})
+    .then(function(res){
+      if(res.ok){
+        form.reset();
+        successBox.classList.add("show");
+        btn.style.display = "none";
+        setTimeout(function(){
+          successBox.classList.remove("show");
+          btn.style.display = "";
+          btn.textContent = "Send Message \u2736";
+          btn.disabled = false;
+        },6000);
+      } else {
+        btn.textContent = "Send Message \u2736";
+        btn.disabled = false;
+        alert("Something went wrong. Please email me directly at gulifardoshaira\u0040gmail.com");
+      }
+    })
+    .catch(function(){
+      btn.textContent = "Send Message \u2736";
+      btn.disabled = false;
+      alert("Something went wrong. Please email me directly at gulifardoshaira\u0040gmail.com");
+    });
+  });
+}
+</script>
+</body>
+</html>
